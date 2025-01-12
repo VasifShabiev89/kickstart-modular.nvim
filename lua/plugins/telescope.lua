@@ -102,6 +102,11 @@ return {
           grep_open_files = true,
           prompt_title = 'Live Grep in Open Files',
         }
+        builtin.buffers({
+          sort_mru=true,
+          ignore_current_buffer=false,
+          show_all_buffers=true
+        })
       end, { desc = '[S]earch [/] in Open Files' })
 
       -- Shortcut for searching your Neovim configuration files
