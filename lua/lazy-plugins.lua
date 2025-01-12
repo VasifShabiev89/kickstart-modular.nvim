@@ -35,6 +35,7 @@ require('lazy').setup({
   require 'plugins.mini',
   require 'plugins.treesitter',
 
+  require 'plugins.bufferline',
   require 'plugins.neo-tree',
   --require 'plugins.debug',
   require 'plugins.mini',
